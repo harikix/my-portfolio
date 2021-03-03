@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-logo">
+                <h3>HARUKI's portfolio</h3>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="first-view" class="first-view">
+            <img class="image" src="./img/photo-1500989145603-8e7ef71d639e.jpeg" alt="アイキャッチ">
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="section-title">about</p>
+                    </div>
+                    <div class="col-12">
+                        <p class="subtitle">my skillset</p>
+                    </div>
+                    <div class="row row-cols-2">
+                        <div class="row row-cols-2">
+                            <div class="expert-degree">
+                                <p class="language">HTML5</p>
+                                <p>Skilled Level</p>
+                                <p>★★★★☆</p>
+                            </div>
+                            <img class="icon" src="./img/html5.svg" alt="HTMLのロゴ">
+                            <div class="expert-degree">
+                                <p class="language">CSS3</p>
+                                <p>Skilled Level</p>
+                                <p>★★★★☆</p>
+                            </div>
+                            <img class="icon" src="./img/css3.svg" alt="CSSのロゴ">
+                            <div class="expert-degree">
+                                <p class="language">JavaScript</p>
+                                <p>Skilled Level</p>
+                                <p>★★★☆☆</p>
+                            </div>
+                            <img class="icon" src="./img/javascript_1.svg" alt="JavaScriptのロゴ">
+                            <div class="expert-degree">
+                                <p class="language">Vue</p>
+                                <p>Skilled Level</p>
+                                <p>★★★☆☆</p>
+                            </div>
+                            <img class="icon" src="./img/vue-js.svg" alt="vueのロゴ">
+                        </div>
+                        <div class="row row-cols-2">
+                            <div class="expert-degree">
+                                <p class="language">PHP</p>
+                                <p>Skilled Level</p>
+                                <p>★★☆☆☆</p>
+                            </div>
+                            <img class="icon" src="./img/php.svg" alt="phpのロゴ">
+                            <div class="expert-degree">
+                                <p class="language">laravel</p>
+                                <p>Skilled Level</p>
+                                <p>★★☆☆☆</p>
+                            </div>
+                            <img class="icon" src="./img/laravel.svg" alt="laravelのロゴ">
+                            <div class="expert-degree">
+                                <p class="language">MySQL</p>
+                                <p>Skilled Level</p>
+                                <p>★★☆☆☆</p>
+                            </div>
+                            <img class="icon" src="./img/mysql.svg" alt="MySQLのロゴ">
+                            <div class="expert-degree">
+                                <p class="language">git</p>
+                                <p>Skilled Level</p>
+                                <p>★★☆☆☆</p>
+                            </div>
+                            <img class="icon" src="./img/git.svg" alt="gitのロゴ">
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="section-title">works</p>
+                    </div>
+                    <p>coming soon...</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="section-title">contact</p>
+                    </div>
+                    <div class="col-md">
+                        <form method="post">
+                            <div class="form-row">
+                                <div class="col-6">
+                                    <label>NAME:</label>
+                                    <input type="text" name="name" class="form-control">
+                                </div>
+                                <div class="col-6">
+                                    <label>EMAIL ADDRESS:</label>
+                                    <input type="email" name="email" class="form-control">
+                                </div>
+                                <div class="col-12">
+                                    <label>お問い合わせ内容</label>
+                                    <textarea name="massage" cols="30" rows="3" class="form-control"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <input type="submit" name="submit">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="caution">*実際には送信されません</p>
+    </main>
+    <footer>
+        <div class="container">
+            <small class="col-12 copy-right">&copy; haruki sasaki ALL RIGHTS RESERVED</small>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
